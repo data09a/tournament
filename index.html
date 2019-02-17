@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Affordable Web Design For Small And Medium-sized Companies">
+    <meta name="author" content="Sebastian Eschweiler">
+    <title>Tournament Bracket Generator
+    </title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <img src="img/log.jpg" width="70px">
+            </div>
+            <nav>
+                <div class="w3-bar">
+                  <a href="#" class="w3-bar-item w3-button"><img src="img/country.jpg"></a>
+                       
+                    <a href="#" class="w3-bar-item w3-button">Log in</a>
+                    <a href="#" class="w3-bar-item w3-button">Sign up</a>
+                   
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <form action="/action_page.php">
+            <h1>
+                <div id="title">
+                Tournament Bracket Generator
+                </div>
+            </h1>
+            
+                    <div class="row">
+                      <div class="col-25">
+                         
+                        <label for="fname">Tournament Name:</label>
+                      </div>
+                                             
+                      <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="">
+                      </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-25">
+                              <label for="type">Tournament Type:</label>
+                            </div>
+                            <div class="col-75">
+                              <select id="type" name="type">
+                                <option value="single">Single Elimination</option>
+                                <option value="double">Double Elimination</option>
+                                <option value="round">Round Elimination</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="row">
+                                <div class="col-25">
+                                  <label for="type">Bracket Size:</label>
+                                </div>
+                                <div class="col-75">
+                                  <select id="type" name="type">
+                                    <option value="number">Use number of participants provided below</option>
+                                    <option value="select">Select the size for a blank bracket</option>
+                                   </select>
+                                </div>
+                              </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="lname">Tournament Type:</label>
+                      </div>
+                      <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-25">
+                        <label for="country">Country</label>
+                      </div>
+                      <div class="col-75">
+                        <select id="country" name="country">
+                          <option value="australia">Australia</option>
+                          <option value="canada">Canada</option>
+                          <option value="usa">USA</option>
+                        </select>
+                      </div>
+                    </div>
+                                        <div class="row">
+                      <div class="col-25">
+                        <label for="subject">Subject</label>
+                      </div>
+                      <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <input type="submit" value="GENERATE IT!">
+                    </div>
+                    </form>
+             
+
+        </div>
+
+    </section>
+
+    
+
+    <footer>
+        
+    </footer>
+    
+    
+   </body>
+</html>
+
+
